@@ -1,25 +1,100 @@
-# Python-Mini-Projects 🐍
+# Python Mini Projects 🐍
 
-A collection of useful, small-scale Python scripts and applications designed to automate daily tasks, test skills, and provide practical utility.
-
----
+A collection of small, practical Python projects designed to automate everyday tasks, develop programming skills, and provide useful utilities.
 
 ## 🚀 Projects Overview
 
-| Project Name | Description | Key Features |
-| :--- | :--- | :--- |
-| **📂 File Organizer** | Automatically sorts files in a directory into designated folders based on their extensions. | File handling, automation, `os` and `shutil` modules. |
-| **📄 PDF Merger GUI** | A graphical user interface application that lets users easily select and merge multiple PDF files into one. | `tkinter` or `PyQt` for GUI, `PyPDF2` or `pypdf` for PDF manipulation. |
-| **⌨️ Typing Speed Tester** | A fun application to test and calculate your typing speed (WPM) and accuracy. | Time tracking, string comparison, real-time feedback. |
-| **💧 Water Drinking Reminder** | A background utility that sends periodic desktop notifications reminding you to stay hydrated. | Desktop notifications, background timers, health utility. |
+| Project | Description | Key Features |
+| --- | --- | --- |
+| **📂 File Organizer** | Automatically organizes files into folders based on their extensions. | File handling, automation, `os`, `shutil` |
+| **📄 PDF Merger GUI** | Provides a graphical interface for selecting and merging multiple PDF files. | `tkinter` or `PyQt`, `PyPDF2` or `pypdf` |
+| **⌨️ Typing Speed Tester** | Measures typing speed in words per minute (WPM) and calculates accuracy. | Time tracking, string comparison, real-time feedback |
+| **💧 Water Drinking Reminder** | Sends periodic desktop notifications to remind users to stay hydrated. | Desktop notifications, background timers |
 
----
+## 🛠️ Installation
 
-## 🛠️ Installation & Setup
+### 1. Clone the repository
 
-To run any of these projects locally, follow these steps:
+```bash
+git clone https://github.com/tanishpancheshwar/Python-Mini-Projects.git
+cd Python-Mini-Projects
+```
 
-1. **Clone the repository:**
+### 2. Create a virtual environment
+
+This step is optional but recommended.
+
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**macOS/Linux**
+
+```bash
+source venv/bin/activate
+```
+
+### 3. Install the dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 📝 How to Run
+
+Run a project from the repository directory using Python:
+
+```bash
+# Run File Organizer
+python file_organizer.py
+
+# Run PDF Merger GUI
+python pdf_merger_gui.py
+
+# Run Typing Speed Tester
+python typing_speed_tester.py
+
+# Run Water Drinking Reminder
+python water_drinking_reminder.py
+```
+
+## 🤝 Contributing
+
+Contributions, bug reports, and feature requests are welcome!
+
+To contribute:
+
+1. Fork this repository.
+2. Create a new branch:
+
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-   cd YOUR_REPOSITORY_NAME
+   git checkout -b feature/my-new-project
+   ```
+
+3. Make your changes and commit them:
+
+   ```bash
+   git commit -m "Add a new mini project"
+   ```
+
+4. Push your branch:
+
+   ```bash
+   git push origin feature/my-new-project
+   ```
+
+5. Open a pull request.
+
+You can also visit the repository's **Issues** page to report bugs, request features, or suggest new mini-projects.
+
+## 📄 License
+
+Add your project's license information here.
